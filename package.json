@@ -1,0 +1,64 @@
+{
+  "name": "sonos-fuel-throttle-node",
+  "title": "ExactTarget Integration",
+  "description": "Easy interface to ET",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jason/sonos-fuel-throttle-node",
+  "author": {
+    "name": "Jason Young",
+    "email": "jason.young@sonos.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jason/sonos-fuel-throttle-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jason/sonos-fuel-throttle-node/issues"
+  },
+  "licenses": [
+    {
+      "type": "GNU",
+      "url": "https://github.com/jason/sonos-fuel-throttle-node/blob/master/LICENSE-GNU"
+    }
+  ],
+  "main": "app",
+  "engines": {
+    "node": ">= 0.8.14"
+  },
+  "dependencies": {
+    "config": "0.4.20",
+    "express": "3.0.0rc4",
+    "fuel": "~0.2.1",
+    "hbs": "~1.0.5",
+    "http-proxy": "0.8.7",
+    "jwt-simple": "0.1.0",
+    "moment": "1.7.2",
+    "mongoose": "3.6.4",
+    "request": "2.12.0",
+    "underscore": "1.4.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-contrib-handlebars": "~0.5.8",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-qunit": "~0.2.1",
+    "grunt-mocha": "~0.3.0",
+    "matchdep": "~0.1.1"
+  },
+  "keywords": [],
+  "volo": {
+    "baseDir": "public/vendor",
+    "dependencies": {
+      "backbone": "github:documentcloud/backbone/1.0.0",
+      "fuelux": "github:ExactTarget/fuelux/2.3.0",
+      "jquery": "github:jquery/jquery/1.9.1",
+      "require": "github:jrburke/requirejs/2.1.5",
+      "underscore": "github:documentcloud/underscore/1.4.4"
+    }
+  }
+}
